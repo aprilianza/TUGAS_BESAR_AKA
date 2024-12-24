@@ -2,7 +2,7 @@ import time
 
 def catalan_recursive(n):
     result = 0
-    if n <= 1:
+    if n == 1 or n == 0:
         return 1
     else:
         for i in range(n):
